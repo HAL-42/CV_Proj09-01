@@ -11,7 +11,7 @@
 #include "HW4.h"
 #include "morph_lib.h"
 
-Mat Dilation(const Mat A, const Mat B){
+Mat Erosion(const Mat A, const Mat B){
     Mat padded_A;
     copyMakeBorder(A, padded_A, 1, 1, 1, 1, BORDER_CONSTANT, Scalar::all(0));
     Mat rslt(A.size(), CV_8UC1, Scalar::all(0));
@@ -26,7 +26,7 @@ Mat Dilation(const Mat A, const Mat B){
     return rslt;
 }
 
-Mat Erosion(const Mat A, const Mat B){
+Mat Dilation(const Mat A, const Mat B){
     Mat padded_A;
     copyMakeBorder(A, padded_A, 1, 1, 1, 1, BORDER_CONSTANT, Scalar::all(0));
     Mat rslt(A.size(), CV_8UC1, Scalar::all(0));

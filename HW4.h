@@ -4,13 +4,13 @@
  * @Email: hal_42@zju.edu.cn
  * @Company: Zhejiang University
  * @LastEditors: Xiaobo Yang
- * @LastEditTime: 2019-06-24 02:35:55
+ * @LastEditTime: 2019-06-24 04:23:36
  * @Description: Common include here
  */
 
 
-#ifndef _HW2_H_
-#define _HW2_H_
+#ifndef _HW4_H_
+#define _HW4_H_
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
