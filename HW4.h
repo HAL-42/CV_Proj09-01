@@ -19,4 +19,8 @@ using namespace cv;
 #include <iostream>
 #include <exception>
 
+int WriteImg(const Mat img, String img_name = NULL, bool is_show = true);
+Mat ReadImg(String img_path, int option = 0);
+
 #endif
+
